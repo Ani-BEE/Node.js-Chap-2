@@ -1,0 +1,9 @@
+var foo =123;
+
+if (true) {
+	(function (){
+	var foo = 456;
+})();
+}
+console.log(foo);
+document.getElementById('txtInput').value = foo;
